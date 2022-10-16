@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masms=intel $CFILE -o $(echo $CFILE | rev | cut -d . -f1 --complement | rev).s # The -masms switch is to precise that we want intel syntax assembly code
+gcc -S -masm=intel $CFILE -o $(echo $CFILE | rev | cut -d . -f1 --complement | rev).s # The -masm switch is to precise that we want intel syntax assembly code
