@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -c $CFILE -o $(echo $CFILE | rev | cut -d . -f1 --complement | rev).o # -c option to indicate compile and assemble, no linking
