@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S $CFILE -o $(echo $CFILE | rev | cut -d . -f1 --complement | rev).s # -S option to indicate compile only, no assemble, no linking
