@@ -25,4 +25,5 @@ int main(void)
 	}
 
 	printf("%lu\n", prev + next);
+	return (0);
 }
