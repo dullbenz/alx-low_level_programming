@@ -13,7 +13,7 @@ int main(void)
 	prev = 1;
 	next = 2;
 
-	printf("1, 2\n");
+	printf("1, 2, ");
 
 	for (i = 0; i < 47; i++)
 	{
