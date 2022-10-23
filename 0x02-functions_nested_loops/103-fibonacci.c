@@ -14,11 +14,13 @@ int main(void)
 
 	while (next <= 4000000)
 	{
-		if ((next % 2) == 0)
+		if (next % 2 == 0)
+		{
 			if (next + prev > 4000000)
 				printf("%d\n", next);
 			else
 				printf("%d, ", next);
+		}
 		temp = next;
 		next += prev;
 		prev = temp;
